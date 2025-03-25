@@ -307,6 +307,8 @@ def sample(model, shape):
     x = np.clip((x + 1) * 127.5, 0, 255).astype(np.uint8)
     return x
 
+### Functie voor het evalueren van het model
+
 def compare_generated_vs_real(generated_samples, real_samples, num_images=5, cmap=None):
     """
     Vergelijkt gegenereerde afbeeldingen met echte afbeeldingen in een raster.
