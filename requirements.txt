@@ -3,3 +3,4 @@ Pillow
 matplotlib
 tensorflow
 tqdm
+google-colab
